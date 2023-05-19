@@ -12,6 +12,7 @@ rustls-tls = ["turborepo-api-client/rustls-tls"]
 [dev-dependencies]
 anyhow = { workspace = true, features = ["backtrace"] }
 tempfile = { workspace = true }
+test-case = { workspace = true }
 
 [dependencies]
 base64 = "0.21.0"
